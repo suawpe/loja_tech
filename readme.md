@@ -256,15 +256,3 @@ A documentação de [CREATE VIEW](https://dev.mysql.com/doc/refman/8.4/en/create
 O banco não existia antes da execução. Após as demonstrações, há 6 categorias e o telefone do cliente 1 contém o valor novo; as demais linhas iniciais foram mantidas. Os avisos 1305 nas primeiras instruções DROP PROCEDURE IF EXISTS indicam que as rotinas ainda não existiam. Não houve erro SQL impeditivo. O Workbench exibiu um aviso de versão não suportada para o servidor 8.4, mas os comandos e resultados desta atividade funcionaram.
 
 Há uma diferença de R$ 0,10 nos dados fornecidos para o pedido 3: os itens somam R$ 1.099,60 e o cabeçalho registra R$ 1.099,70. Nenhum valor foi corrigido. A consulta 8 soma os cabeçalhos, conforme solicitado, e inclui cancelados; por isso seu resultado não deve ser interpretado como receita recebida. Datas com DEFAULT CURRENT_TIMESTAMP refletem a hora do servidor no momento da carga.
-
-Os CPFs, telefones e e-mails incluídos no script são os dados de exemplo fornecidos pelo professor. O projeto não foi publicado no GitHub.
-
-## Referências
-
-- Material do professor: `aula-stored-procedures.pdf` (23 páginas), esquema, dados iniciais e sintaxe de procedures.
-- Lista obrigatória: `Atividade Consultas e Stored Procedures.pdf` (2 páginas), 10 consultas e 5 procedures.
-- [MySQL 8.4: Using Views](https://dev.mysql.com/doc/refman/8.4/en/views.html).
-- [MySQL 8.4: CREATE VIEW Statement](https://dev.mysql.com/doc/refman/8.4/en/create-view.html).
-- [MySQL 8.4: Updatable and Insertable Views](https://dev.mysql.com/doc/refman/8.4/en/view-updatability.html).
-
-Fontes oficiais consultadas em 24/11/2026. Os PDFs originais permanecem no local fornecido pelo aluno.
